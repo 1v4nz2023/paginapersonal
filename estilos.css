@@ -1,0 +1,169 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(23,105,242,1) 0%, rgba(74,55,164,1) 39%, rgba(121,9,92,1) 82%);
+}
+
+/* Logo */
+.logo{
+    width: 20%;
+    border-radius: 100%;
+    padding: 1rem;
+}
+
+
+.contenedor-redes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(23,105,242,1) 0%, rgba(74,55,164,1) 39%, rgba(121,9,92,1) 82%);
+    text-align: center;
+    height: 100px;
+}
+
+.contenedor-redes h2{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#presentacion{
+display: none;
+background-image: url(https://venngage-wordpress.s3.amazonaws.com/uploads/2018/11/15-Presentation-Background-Examples1.png);
+background-position: center;
+background-size: cover;
+color: white;
+}
+
+.contenedor-inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url("img/bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.contenedor-inicio h1{
+text-align: center;
+font-size: 3vw;
+color: white;
+font-weight: bold;
+}
+
+
+.contenedor-hobbies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    min-height: 60px;
+    
+}
+
+.contenedor-hobbies h2{
+    color: white;
+}
+
+.carousel-item h5,p{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+
+.contenedor-metas{
+
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.contenedor-expectativas{
+    background-image: url(https://1.bp.blogspot.com/-eb4clLU8yKU/XQ1Na0FteuI/AAAAAAAAs4c/Ye7FZBgcJeUuTt95mc4oLjIgLI0PUmw3ACLcBGAs/s1600/business-3686656_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+
+@media (max-width:900px) {
+    .contenedor-inicio{
+        min-height: 40vh;
+    }   
+
+    .contenedor-expectativas{
+        min-height: 50vh;
+    }
+
+    .contenedor-metas{
+
+        min-height: 50vh;
+ 
+    }
+
+    }
+
+    
+@media (max-width:414px) {
+        .contenedor-inicio{
+            min-height: 30vh;
+        }
+
+        }   
+
+@media (max-width:460px) {
+    .logo{
+        width: 35%;
+    }
+
+}
+
+@media (max-width:280px) {
+.contenedor-inicio{
+    min-height: 30vh;
+}
+.contenedor-inicio h1{
+
+  font-size: 1rem;
+
+    }
+    .contenedor-expectativas{
+        min-height: 30vh;
+    }
+}
+
+
